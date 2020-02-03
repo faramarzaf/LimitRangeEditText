@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="LimitRangeEditText">
+
+        <attr name="hint" format="string" />
+        <attr name="defaultText" format="string" />
+        <attr name="customFontFamily" format="string" />
+        <attr name="editTextColor" format="color" />
+        <attr name="minMaxValueColor" format="color" />
+        <attr name="mainTextSize" format="dimension" />
+        <attr name="textValuesSize" format="dimension" />
+
+        <attr name="maxRangeValue" format="integer" />
+        <attr name="minRangeValue" format="integer" />
+        <attr name="editTextLines" format="integer" />
+
+
+
+        <attr name="inputType">
+            <enum name="text" value="0" />
+            <enum name="phone_number" value="1" />
+            <enum name="email" value="2" />
+            <enum name="password" value="3" />
+            <enum name="multi_line" value="4" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
