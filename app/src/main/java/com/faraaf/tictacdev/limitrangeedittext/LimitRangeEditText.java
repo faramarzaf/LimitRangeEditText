@@ -19,6 +19,11 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
+/**
+ * @author Faramarz Afzali
+ * @since Feb 3, 2019
+ */
+
 public class LimitRangeEditText extends LinearLayout {
 
     private View rootView;
@@ -213,6 +218,7 @@ public class LimitRangeEditText extends LinearLayout {
                     unFadeUi();
                 }
             }
+
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
             }
@@ -250,5 +256,4 @@ public class LimitRangeEditText extends LinearLayout {
             return;
         }
     }
-    
 }
