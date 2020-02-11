@@ -4,19 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <com.faraaf.tictacdev.limitrangeedittext.LimitRangeEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:editTextColor="#162FC4"
+        app:editTextLines="1"
         app:hint="type here..."
-        app:editTextLines="5"
+        app:maxRangeValue="50"
         app:minMaxValueColor="#D81B60"
-        app:maxRangeValue="180"
-        app:minRangeValue="0"
-app:inputType="multi_line"
+        app:minRangeValue="0" />
 
-        />
+
+    <com.faraaf.tictacdev.limitrangeedittext.LimitRangeEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:editTextColor="#162FC4"
+        app:editTextLines="5"
+        app:hint="type here..."
+        app:inputType="multi_line"
+        app:maxRangeValue="150"
+        app:minMaxValueColor="#D81B60"
+        app:minRangeValue="0" />
+
 
 </LinearLayout>

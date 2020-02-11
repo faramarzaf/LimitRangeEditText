@@ -256,4 +256,13 @@ public class LimitRangeEditText extends LinearLayout {
             return;
         }
     }
+
+    public String getText() {
+        return mainEditText.getText().toString();
+    }
+
+    public int getLength() {
+        return mainEditText.length();
+    }
+
 }
