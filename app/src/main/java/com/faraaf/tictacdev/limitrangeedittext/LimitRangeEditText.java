@@ -265,4 +265,8 @@ public class LimitRangeEditText extends LinearLayout {
         return mainEditText.length();
     }
 
+    public void setText(String text){
+        mainEditText.setText(text);
+    }
+
 }

@@ -13,6 +13,7 @@
         app:editTextColor="#162FC4"
         app:editTextLines="1"
         app:hint="type here..."
+        android:id="@+id/asd"
         app:maxRangeValue="50"
         app:minMaxValueColor="#D81B60"
         app:minRangeValue="0" />
